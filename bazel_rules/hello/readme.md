@@ -1,1 +1,1 @@
-An example from [Bazel Rules](https://blog.belov.nz/posts/bazel-rules-hello/) post.
+An example from a [Bazel Rules](https://blog.belov.nz/posts/bazel-rules-hello/) post.
