@@ -1,0 +1,11 @@
+load(":rules.bzl", "demo_binary")
+
+demo_binary(
+    name = "english",
+    message = "Hello, World!",
+)
+
+demo_binary(
+    name = "french",
+    message = "Bonjour monde!",
+)
