@@ -6,7 +6,6 @@ def _demo_binary_impl(ctx):
         substitutions = {
             "{MESSAGE}": ctx.attr.message,
         },
-        is_executable = True,
     )
     return [DefaultInfo(
         files = depset([out]),
