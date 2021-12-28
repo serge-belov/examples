@@ -1,0 +1,8 @@
+load(":rules.bzl", "demo_binary")
+
+demo_binary(
+    name = "source",
+    src = "hello.tpl",
+    out = "hello",
+    message = "Hello, World!",
+)
