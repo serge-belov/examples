@@ -1,1 +1,1 @@
-Bazel examples used in [Bazel Rules](https://blog.belov.nz) series.
+Bazel examples used in [Bazel Rules](https://belov.nz) series.
