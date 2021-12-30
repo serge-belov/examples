@@ -1,0 +1,18 @@
+load(":rules.bzl", "demo_macro")
+
+demo_macro(
+    name = "macros",
+    srcs = [
+        "english.sh",
+        "french.sh",
+    ],
+    out = "hello.sh",
+)
+
+demo_macro(
+    name = "bonjour",
+    srcs = [
+        "french.sh",
+        "english.sh",
+    ],
+)
