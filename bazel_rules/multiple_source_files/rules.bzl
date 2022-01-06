@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-multiple-source-files/ """
+
 _SCRIPT = "echo '#!/bin/sh' > {out} && cat {srcs} >> {out}"
 
 def _demo_binary_impl(ctx):

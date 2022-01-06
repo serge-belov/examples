@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-hello/ """
+
 def _demo_rule_impl(ctx):
     pass
 

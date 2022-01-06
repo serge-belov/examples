@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-file/ """
+
 def _demo_rule_impl(ctx):
     out = ctx.actions.declare_file("hello.txt")
     ctx.actions.write(

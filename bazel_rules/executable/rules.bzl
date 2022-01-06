@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-executable/ """
+
 def _demo_binary_impl(ctx):
     out = ctx.actions.declare_file("hello")
     ctx.actions.write(

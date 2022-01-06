@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-source/ """
+
 def _demo_binary_impl(ctx):
     out = ctx.outputs.out
     ctx.actions.expand_template(
