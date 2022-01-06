@@ -1,0 +1,9 @@
+load(":rules.bzl", "demo_outputs")
+
+demo_outputs(
+    name = "multiple_outputs",
+    srcs = [
+        "english.sh",
+        "french.sh",
+    ],
+)
