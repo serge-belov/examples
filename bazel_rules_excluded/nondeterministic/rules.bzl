@@ -1,3 +1,5 @@
+""" An example from https://belov.nz/posts/bazel-rules-output/ """
+
 _TEMPLATE = """\
 #!/bin/sh
 echo "{}"
