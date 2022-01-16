@@ -1,3 +1,0 @@
-#!/bin/sh
-param="bazel ""$@"
-nix-shell --pure --run "$param"
