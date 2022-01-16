@@ -1,3 +1,7 @@
-#!/bin/sh
-param="bazel ""$@"
-nix-shell --pure --run "$param"
+#! /usr/bin/env nix-shell
+
+#! nix-shell --pure
+#! nix-shell -p bazel_4 jdk11_headless
+#! nix-shell -i bash
+
+bazel $@
