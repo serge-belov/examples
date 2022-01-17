@@ -1,0 +1,10 @@
+workspace(name = "user_repo")
+
+local_repository(
+    name = "demo_repo",
+    path = "../demo_repo",
+)
+
+load("@demo_repo//:defs.bzl", "register_demo_toolchains")
+
+register_demo_toolchains()

@@ -1,0 +1,12 @@
+load(":toolchains.bzl", "DEMO_TOOLCHAIN_TYPE", "demo_toolchain_info")
+
+demo_toolchain_info(
+    name = "demo_toolchain_info_english",
+    message = "Hello, World!",
+)
+
+toolchain(
+    name = "demo_toolchain_english",
+    toolchain = ":demo_toolchain_info_english",
+    toolchain_type = DEMO_TOOLCHAIN_TYPE,
+)
