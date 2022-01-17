@@ -1,3 +1,6 @@
 load("@demo_repo//:rules.bzl", "demo_rule")
 
-demo_rule(name = "file")
+demo_rule(
+    name = "file",
+    out = "hello.txt",
+)
