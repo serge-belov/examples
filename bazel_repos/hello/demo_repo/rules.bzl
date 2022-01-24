@@ -1,4 +1,4 @@
-""" An example from https://belov.nz/posts/bazel-rules-TODO/ """
+""" An example from https://belov.nz/posts/bazel-rules-packaging/ """
 
 def _demo_rule_impl(ctx):
     ctx.actions.write(
